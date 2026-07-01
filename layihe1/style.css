@@ -1,0 +1,70 @@
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #fafafa;
+    padding: 20px;
+}
+.avatar {
+    width: 100px;
+    height: 100px;
+    background-color: #7b61ff;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: bold;
+}
+button {
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #7b61ff;
+    background-color: transparent;
+    cursor: pointer;
+}
+.project-card {
+ border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    background-color: white;}
+    
+    .project-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    }
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+header .nav ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+header nav a {
+    text-decoration: none;
+    color: #333;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+ header{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+ }
